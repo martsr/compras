@@ -3,20 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesForm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Contacto</title>
 </head>
 
 <body>
     <form>
-        <h1>Formulario de Contacto</h1>
-        <p>Por favor rellenar los siguientes campos y sera contactado en la brevedad. Gracias!</p>
+        <div class="form-header">
+            <h1>Formulario de Contacto</h1>
+            <p>Por favor rellenar los siguientes campos y sera contactado en la brevedad. Gracias!</p>
+        </div>
         <p>
             <label>Nombre: </label>
-            <input type="text" name="Nombre" placeholder="Ingrese su Nombre"/>
+            <input type="text" name="Nombre" placeholder="Ingrese su Nombre" />
         </p>
         <p>
             <label>Apellido: </label>
-            <input type="text" name="Apellido" placeholder="Ingrese su Apellido"/>
+            <input type="text" name="Apellido" placeholder="Ingrese su Apellido" />
         </p>
         <p>
             <label>Metodo de Contacto:</label>
@@ -24,7 +34,7 @@
                 <option value="mail">Mail</option>
                 <option value="celular">Celular</option>
             </select>
-            <input type="text" placeholder="Ingrese el celular o mail"/>
+            <input type="text" placeholder="Ingrese el celular o mail" />
         </p>
         <p>
             <label>Por favor detalle la razon de Contacto:</label>
@@ -32,11 +42,13 @@
         <p>
             <textarea name="razonContacto"> </textarea>
         </p>
+        <div class="botones">
         <p>
-            <input type="submit" value="Enviar"/>
-            <input type="reset" value="Borrar"/>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
 
         </p>
+    </div>
     </form>
 </body>
 
