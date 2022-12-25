@@ -11,6 +11,7 @@ form{
     box-shadow: 6px 6px #e3e0e0;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px;
 }
 .form-header{
     text-align: center;
