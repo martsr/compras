@@ -1,0 +1,25 @@
+.container{
+    
+    border: 3px solid black;
+    color: white;
+    text-align: center;
+    line-height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-1{
+    background-color:red ;
+    width: 170px;
+    
+}
+
+.item-2{
+    background-color:blue ;
+    width: 170px;
+}
+
+.item-3{
+    background-color:green;
+    width: 170px;
+}
