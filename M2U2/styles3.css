@@ -8,18 +8,23 @@
     justify-content: space-between;
 }
 
-.item-1{
-    background-color:red ;
+.item{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 170px;
-    
+    height: 170px;
+}
+.uno{
+    background-color:red ;  
+   
 }
 
-.item-2{
-    background-color:blue ;
-    width: 170px;
+.dos{
+    background-color:blue ; 
 }
 
-.item-3{
+.tres{
     background-color:green;
-    width: 170px;
 }
