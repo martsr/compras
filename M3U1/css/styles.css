@@ -1,0 +1,218 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav  {
+    background-color: #F0F4F4;
+    line-height: 56px;
+    color: black;
+    font-size: 18px;
+}
+
+
+ .menu ul {
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+    margin: 0;
+    justify-content: center;  
+}
+
+nav ul li a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul li a:hover{
+    background-color:#E3E7E7;
+    border-radius: 5px;
+}
+ul li a.activo{
+    background-color:#E3E7E7;
+    border-radius: 5px;
+}
+.nav-link{
+    cursor: pointer;
+}
+.main-container{
+    margin: 10px;
+}
+.foter-container{
+    background-color: #F0F4F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.foter-links ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    margin: 0px;  
+   
+}
+
+.foter-links ul a
+{
+    text-decoration: none;
+    color: rgb(66, 64, 64);
+}
+
+/* Home Start */
+.intro-container{
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    margin:1px;
+    flex-direction: row;
+    line-height: 40px;
+    gap: 4px;
+    
+}
+
+.intro-img img{
+    border-radius: 5px;
+}
+
+.intro{
+    align-self: center;
+    text-align: center;
+}
+
+.pic-collage{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.subart2{
+    display: flex;
+    flex-direction: row;
+}
+
+.fragile{
+    max-width: 900px;
+}
+.miniart{
+    max-width: 450px;
+}
+.column-art{
+    max-width: 493px;
+}
+
+
+
+/* End Home */
+
+/* Start About us  */
+.history{
+    display: flex;
+    background-color: aliceblue;
+}
+.history-text{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+ h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.history-img{
+    width: 50%;
+}
+#place{
+    width:700px ;
+    height:420px ;
+    border-radius: 10px;
+}
+.staff-container{
+    margin-top: 20px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+.staff-title{
+    line-height: 5px;
+}
+.members{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border-top: 5px solid white;
+}
+.member{
+    text-align: center;
+    width: 25%;
+    border-radius: 5px;
+    border:2px solid #aab3b3;
+}
+.member img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+   
+}
+.persona h5{
+    margin-bottom: 0px;
+}
+.persona h6{
+    margin-top: 0px;
+    padding: 0;
+    font-style: italic;
+}
+
+/* End About us  */
+
+/* Start Exhibitions*/
+.exhibitions{
+    display: flex;
+    flex-direction: column;
+}
+.exhibition{
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    gap: 15px;
+    align-items: center;
+}
+
+.exh-img{
+    height:225px ;
+    width: 225px;
+    border-radius: 10px;
+    
+}
+
+.exh-info h2{
+    margin-bottom: 0px;
+    font-style: bold;
+    font-weight: 300;
+}
+.exh-info h4{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+}
+.exh-info{
+    padding-left: 10px;
+align-self: center;
+}
+.exhibition:nth-child(even){
+    flex-direction: row-reverse;
+}
+/* End Exhibitions*/
