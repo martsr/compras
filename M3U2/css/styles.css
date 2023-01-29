@@ -296,9 +296,12 @@ sup {
 input,
 textarea {
     border: none;
-    border-radius: 2px;
+    border-radius: 5px;
 }
-
+textarea{
+    resize: none;
+    height: 150px;
+}
 textarea {
     width: 100%;
 }
